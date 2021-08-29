@@ -1,1 +1,1 @@
-worker: python randombot.py
+worker: python gunterbot.py
