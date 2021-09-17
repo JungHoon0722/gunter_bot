@@ -15,7 +15,7 @@ async def on_ready():
 @client.event
 async def on_message(message):
     if message.content == "명령어":
-        await message.channel.send("hi, Hi, 숫자, 해말아, ㅅㅂ, 시발, 아, 아니, 아., 닥쳐, 넌 닥쳐, ㄷㅊ, 어쩌라고, 재배맨, 송강, 마크툽, 건터")
+        await message.channel.send("hi, Hi, 숫자, 해말아, ㅅㅂ, 시발, 아, 아니, 아., 닥쳐, 넌 닥쳐, ㄷㅊ, 어쩌라고, 재배맨, 송강, 마크툽, 건터, ")
     
     if message.content == "Hi":
         await message.channel.send("hi")
@@ -103,6 +103,16 @@ async def on_message(message):
         await message.channel.send("성장")
         time.sleep(1)
         await message.channel.send("중")
+        time.sleep(1)
+        await message.channel.send("내가대")
+        time.sleep(0.2)
+        await message.channel.send("표해")
+        time.sleep(0.5)
+        await message.channel.send("이")
+        time.sleep(0.1)
+        await message.channel.send("거리")
+        time.sleep(0.1)
+        await message.channel.send("를")
         
         
     if message.content == "건터":
