@@ -20,6 +20,12 @@ async def on_message(message):
     if message.content == "Hi":
         await message.channel.send("hi")
         
+    if message.content == "ㅇㅈㅇㅈ":
+        await message.channel.send("ㅅㅂㅅㅂ")
+        
+    if message.content == "dwdw":
+        await message.channel.send("tqtq")
+        
     if message.content == "자세교정":
         await message.channel.send("척추수술비용30,000,000")
         
