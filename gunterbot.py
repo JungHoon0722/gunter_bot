@@ -33,7 +33,7 @@ async def on_message(message):
         await message.channel.send(answer)
         
     if message.content == "그?":
-        asd = random.randint(0,1,2,3)
+        asd = random.randint(0,3)
         if asd == 0:
             answer = "https://namu.wiki/w/%EB%B0%B0%EB%A6%AC%EB%82%98"
         if asd == 1:
