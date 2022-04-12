@@ -42,7 +42,7 @@ async def on_message(message):
             answer = "https://img.asiatoday.co.kr/file/2019y/05m/27d/20190527001831462_1558950087_1.jpg"
         if asd == 3:
             answer = "https://mblogthumb-phinf.pstatic.net/MjAxOTA1MzBfMTQy/MDAxNTU5MTk4MDAyOTA3.B2sAcEWmJNCT1E7DN7eyR6KYa53CEkGzm96CJIFaEsQg.T5FmuoZfZJHjzWzmtf7c8LAILIf1JQBgs9nFodZAVXkg.JPEG.wjlisaju/%EC%BA%A1%EC%B2%98.JPG?type=w800"
-            
+        await message.channel.send(answer)    
     if message.content == "시발":
         await message.channel.send("욕은나빠용")
         
