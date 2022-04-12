@@ -57,7 +57,7 @@ async def on_message(message):
     if message.content == "췍디싸":
         await message.channel.send("나는정상")
         time.sleep(1)
-        await message.channel.send("https://dimg.donga.com/wps/NEWS/IMAGE/2019/05/28/95731525.2.jpg")
+        await message.channel.send("쑤")
         time.sleep(1)
         await message.channel.send("백발백중하는")
         time.sleep(0.5)
@@ -69,7 +69,7 @@ async def on_message(message):
         time.sleep(0.5)
         await message.channel.send("유명가")
         time.sleep(1)
-        await message.channel.send("쑤")
+        await message.channel.send("https://img.asiatoday.co.kr/file/2019y/05m/27d/20190527001831462_1558950087_1.jpg")
         time.sleep(1)
         await message.channel.send("일취월장하며")
         time.sleep(0.5)
@@ -83,7 +83,7 @@ async def on_message(message):
         time.sleep(0.5)
         await message.channel.send("이")
         time.sleep(0.1)
-        await message.channel.send("거리")
+        await message.channel.send("https://dimg.donga.com/wps/NEWS/IMAGE/2019/05/28/95731525.2.jpg")
         time.sleep(0.1)
         await message.channel.send("를")
              
