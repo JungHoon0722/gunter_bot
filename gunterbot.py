@@ -33,15 +33,16 @@ async def on_message(message):
         await message.channel.send(answer)
         
     if message.content == "그?":
-        do = random.randint(0,1,2,3)
-        if do == 0:
+        asd = random.randint(0,1,2,3)
+        if asd == 0:
             answer = "https://namu.wiki/w/%EB%B0%B0%EB%A6%AC%EB%82%98"
-        if do == 1:
+        if asd == 1:
             answer = "https://dimg.donga.com/wps/NEWS/IMAGE/2019/05/28/95731525.2.jpg"
-        if do == 2:
+        if asd == 2:
             answer = "https://img.asiatoday.co.kr/file/2019y/05m/27d/20190527001831462_1558950087_1.jpg"
-        if do == 3:
+        if asd == 3:
             answer = "https://mblogthumb-phinf.pstatic.net/MjAxOTA1MzBfMTQy/MDAxNTU5MTk4MDAyOTA3.B2sAcEWmJNCT1E7DN7eyR6KYa53CEkGzm96CJIFaEsQg.T5FmuoZfZJHjzWzmtf7c8LAILIf1JQBgs9nFodZAVXkg.JPEG.wjlisaju/%EC%BA%A1%EC%B2%98.JPG?type=w800"
+            
     if message.content == "시발":
         await message.channel.send("욕은나빠용")
         
